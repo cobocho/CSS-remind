@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+a {
+  display: block;
+  padding: 16px 20px;
+  font-size: 18px;
+  line-height: 20px;
+  color: #8492a6;
+  text-decoration: none;
+}
+
+ul {
+  max-width: 540px;
+  border-bottom: #E5EAEF solid 1px;
+}
+
+ul::after {
+  display: block;
+  content: "";
+  clear: left;
+}
+
+li {
+  float: left;
+  display: block;
+  margin-right: 16px;
+}
+
+.selceted{
+  border-bottom: #2860E1 solid 2px;
+}
+
+.selceted a{
+  color: #2860E1;
+  font-weight: 500;
+}
